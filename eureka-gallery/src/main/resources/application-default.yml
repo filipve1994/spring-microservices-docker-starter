@@ -1,0 +1,21 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: gallery-service
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+
+eureka:
+  instance:
+    appname: gallery-service
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

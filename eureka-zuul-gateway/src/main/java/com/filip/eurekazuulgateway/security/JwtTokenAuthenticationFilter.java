@@ -17,7 +17,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 
-import com.filip.eurekacommon.security.JwtConfig;
+//import com.filip.eurekacommon.security.JwtConfig;
+import com.filip.eurekazuulgateway.security.JwtConfig;
 
 public class JwtTokenAuthenticationFilter extends  OncePerRequestFilter {
 

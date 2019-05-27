@@ -1,0 +1,21 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: auth-service
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+
+eureka:
+  instance:
+    appname: auth-service
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

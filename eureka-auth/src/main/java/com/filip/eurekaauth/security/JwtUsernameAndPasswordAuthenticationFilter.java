@@ -24,7 +24,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-import com.filip.eurekacommon.security.JwtConfig;
+//import com.filip.eurekacommon.security.JwtConfig;
+import com.filip.eurekaauth.security.JwtConfig;
 
 public class JwtUsernameAndPasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter   {
 

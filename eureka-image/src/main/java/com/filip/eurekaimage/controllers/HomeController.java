@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class HomeController {
-    @Autowired
-    private Environment env;
 
     @RequestMapping("/images")
     public List<Image> getImages() {
