@@ -5,3 +5,5 @@
 - https://github.com/OmarElGabry/microservices-spring-boot
 
 - https://dzone.com/articles/centralized-documentation-in-microservice-spring-b
+- https://medium.com/@ijayakantha/microservices-centralized-configuration-with-spring-cloud-f2a1f7b78cc2
+
